@@ -74,5 +74,26 @@ main section button:hover {
 main section .boxMessage {
   border-top: 1px solid;
   padding: 1rem;
-  /* display: none; */
+  display: none;
+}
+
+main section .boxMessage p {
+  display: none;
+  font-style: italic;
+}
+
+@media (max-width: 900px) {
+  main {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2.7rem;
+  }
+
+  main {
+    width: 85%;
+  }
 }
